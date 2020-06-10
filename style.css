@@ -1,0 +1,222 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    background-color: #eef;
+}
+html{
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 1%;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: red; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: green; 
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2%;
+    color: rgb(163, 83, 237);
+    font-family: 'Chau Philomene One', sans-serif;
+}
+hr {
+    width: 70px;
+    border-top: 10px dotted #ccc;
+    margin: 4% auto;
+}
+.btn {
+    border-radius: 0;
+}
+
+#banner{
+    min-height: 60vh;
+    background: linear-gradient(to bottom, #4B0082 25%, #6f2da8 25% 50%, #a35ce6 50% 75%, #b67eed 75% 100%);
+    position: relative;
+}
+
+#banner h1 {
+    line-height: 1;
+    text-align: center;
+    position: relative;
+    margin: 0% auto;
+    color: #fff;
+    font-size: 5.5rem;
+    font-family: 'Chau Philomene One', sans-serif;
+    letter-spacing: 0.3rem;
+    text-shadow: 0 2px 20px #000;
+}
+#banner h1 small {
+    font-size: 2.0rem;
+}
+.navbar {
+    text-align: center;
+    padding: 2% 5% 4%;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
+
+/* content starts.... */
+.content {   
+    margin: 2% auto 0;
+    text-align: center;
+    padding: 2% 10% 4% ;
+}
+#me {
+    width: 20%;
+    border-radius: 50%;
+}
+.content p {
+    font-family: 'B612', sans-serif;
+}
+.content p a {
+    text-decoration: none;
+    color: #000;
+}
+.content p a:hover {
+    border-radius: 5px;
+    padding: 0.3%;
+    background: #fff;
+    color: rgb(163, 83, 237);
+}
+/* skill here.... */
+#skills{
+    background-color: #b67eed;
+    text-align: center;
+}
+#skills .container {
+    padding: 2% 5%;
+}
+#skills .skill {
+    justify-content: center;  
+    text-align: left;
+    padding: 1% 4%;
+    color: #fff;
+}
+
+meter {
+    border-radius: 0;
+    height: 100%;
+    width: 120%;
+}
+
+/* project's css start... */
+.project-row {
+    justify-content: center;
+}
+.projects-col {
+    padding: 3% 3%;
+}
+.card {
+    color: #fff;
+    border-radius: 0px;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    box-shadow: 0 20px 35px rgb(31, 30, 30);
+    transition: ease-in 0.2s;
+}
+.card:hover {
+    box-shadow: 0 30px 35px rgb(14, 13, 13);
+}
+#projects .card-header{
+    padding: 0 0 0%;
+}
+#projects .card-header img {
+    width: 100%;
+    min-height: 230px;
+}
+#projects .card-body {
+    background-color: rgb(138, 43, 226);
+}
+#projects .card-body h2 {
+    padding: 0 0 2%;
+}
+#projects .card-footer {
+    background-color: rgb(58, 24, 90);
+}
+/* contact here... */
+#contact {
+    background-color: #b67eed;
+    color: white;
+    text-align: center;
+    padding: 3% 0;
+}
+#contact div {
+    padding: 0 3%;
+}
+#contact div h2 {
+    padding: 0 0 2%;
+}
+
+/* footer here.... */
+#footer {
+    margin: 5% auto 0;
+    text-align: center;
+    background-color:  #45046a;
+    padding: 3% 6%;
+}
+#footer a {
+    text-decoration: none;
+    color: rgb(162, 103, 218);
+    font-size: 2rem;
+    margin-left: 2%;
+}
+#footer a:hover {
+    color: rgb(190, 204, 224);
+}
+#footer p {
+    padding: 2% 0 0% ;
+    color: #999;
+}
+#footer span {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:1024px) {
+    #banner{
+        min-height: 40vh;
+    }
+    #banner h1 {
+        margin: 10% auto;
+        line-height: 1.4;
+        font-size: 2.5rem;
+    }
+    #banner h1 small{
+       font-size: 1rem;
+    }
+    .content {   
+       padding: 2% 5% 4% ;
+    }
+    #skills .skill {
+       justify-content: left;  
+    }
+    meter {
+       width: 270%;
+    }
+    .project-row {
+       padding: 0 6%;
+    }
+}
+@media (max-width:700px) {
+    #banner{
+        min-height: 40vh;
+    }
+    #banner h1 {
+        margin: 8% auto;
+    }
+}
