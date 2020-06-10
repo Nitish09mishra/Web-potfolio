@@ -40,7 +40,7 @@ hr {
 }
 
 #banner{
-    min-height: 60vh;
+    min-height: 50vh;
     background: linear-gradient(to bottom, #4B0082 25%, #6f2da8 25% 50%, #a35ce6 50% 75%, #b67eed 75% 100%);
     position: relative;
 }
@@ -189,7 +189,7 @@ meter {
 
 @media (max-width:1024px) {
     #banner{
-        min-height: 40vh;
+        min-height: 35vh;
     }
     #banner h1 {
         margin: 10% auto;
