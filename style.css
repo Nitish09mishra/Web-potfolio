@@ -157,7 +157,7 @@ meter {
     border: none;
     margin: 0 auto;
     padding: 0;
-    text-align: left;
+    text-align: center;
     font-size: 20px;
     /*box-shadow: 0 20px 35px #666;*/
     transition: ease-in 0.2s;
