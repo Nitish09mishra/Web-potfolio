@@ -168,6 +168,8 @@ meter {
     box-shadow: 0 15px 20px rgb(14, 13, 13);
 }
 #projects .card-header{
+    font-size: 2.3rem;
+    font-family: 'Chau Philomene One', sans-serif;
     padding: 0 0 0%;
 }
 #projects .card-header img {
@@ -225,10 +227,11 @@ meter {
 }
 
 
-@media (max-width:990px) {
-/*     body, p {
-        font-size: 1.6rem;
-    } */
+@media (max-width:990px) 
+    
+    body, .card-body {
+        font-size: 1.3rem;
+    } 
     #banner h1 {
         margin: 10% auto;
         line-height: 1.4;
