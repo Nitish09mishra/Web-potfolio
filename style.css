@@ -1,0 +1,257 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    background-color: rgb(255,192,203);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 3rem;
+    padding: 2%;
+    color: #FFC0CB;
+    font-family: 'Chau Philomene One', sans-serif;
+}
+hr {
+    width: 70px;
+    border-top: 10px dotted rgba(13,17,55, 0.4);
+    margin: 4% auto;
+}
+.btn {
+    border-radius: 0;
+}
+
+#banner .banner_a {
+    max-height: 80vh;
+    text-align: center;
+    color: #fff;
+    background-color: #e52165;
+}
+#banner .banner_a .dp {
+    margin: 15% auto;
+    width: 100%;
+    /*background-color: #fff;*/
+    text-align: center;
+}
+#banner .banner_a .dp img {
+    border:4px solid rgb(13,17,55);
+    width: 200px;
+    border-radius: 50%;
+}
+#banner .banner_a h1 {
+    font-size: 2rem;
+    margin: 6% auto;
+    font-family: 'Archivo Black', sans-serif;
+}
+#hrline {
+    width: 55%;
+    border-top: 12px solid #000;
+}
+#banner {
+    max-height: 80vh;
+}
+#banner .banner_b {
+    max-height: 80vh;
+    background-color: rgb(128,0,128);
+    background-image: linear-gradient(rgba(13,17,55, 0.85), rgba(13,17,55, 0.85)), url("img/banner.jpg");
+    background-size: cover;
+    position: relative;
+}
+#banner .banner_b .greeting {
+    color: #fff;
+    width: 78%;
+    padding: 0 3% 5%;
+}
+#banner .banner_b .greeting button {
+    border-radius: 30px;
+    background-color: rgb(13,17,55);
+}
+#banner .banner_b .greeting button:hover {
+    background-color: #e72165;
+    color: #fff;
+}
+
+#banner .banner_b h1 {
+    line-height: 1.5;
+    position: relative;
+    margin: 0 0 0 2%;
+    font-size: 3.5rem;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: 0 2px 20px #000;
+}
+#banner .banner_b .greeting p {
+    color: #ccc;
+}
+.navbar {
+    text-align: center;
+    padding: 2% 5% 4%;
+}
+.navbar-brand {
+    display: none;
+    font-size: 2rem;
+}
+.brand_img {
+    width: 100px; 
+    border-radius: 50%; 
+    border:2px solid #fff;
+}
+
+/* content starts.... */
+.content { 
+    margin: 2% auto 0;
+    text-align: center;
+    padding: 2% 10% 4% ;
+}
+.content p {
+    font-family: 'B612', sans-serif;
+}
+.content p a {
+    color: #000;
+    text-decoration: none;
+}
+.content p a:hover {
+    border-radius: 5px;
+    padding: 0.3%;
+    background: #fff;
+    color: #000;
+}
+/* skill here.... */
+#skills{
+    background-image: linear-gradient(rgba(13,17,55, 0.95), rgba(13,17,55, 0.95)), url("img/key_board.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#skills .container {
+    padding: 2% 5%;
+}
+#skills .skill {
+    justify-content: center;  
+    text-align: left;
+    padding: 1% 4%;
+    color: #fff;
+}
+
+meter {
+    border-radius: 0;
+    height: 100%;
+    width: 120%;
+}
+
+/* project's css start... */
+.project-row {
+    justify-content: center;
+}
+.projects-col {
+    padding: 3% 3%;
+}
+.card {
+    color: #fff;
+    border-radius: 0px;
+    border: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    font-size: 20px;
+    /*box-shadow: 0 20px 35px #666;*/
+    transition: ease-in 0.2s;
+}
+.card:hover {
+    box-shadow: 0 15px 20px rgb(14, 13, 13);
+}
+#projects .card-header{
+    padding: 0 0 0%;
+}
+#projects .card-header img {
+    width: 100%;
+    min-height: 230px;
+}
+#projects .card-body {
+    background-color: #e52165;
+}
+#projects .card-body h2 {
+    padding: 0 0 2%;
+}
+#projects .card-footer {
+    background-color: rgb(13,17,55);
+}
+/* contact here... */
+#contact {
+    background-color: #e52165;
+    color: white;
+    text-align: center;
+    padding: 3% 0;
+}
+#contact div {
+    padding: 0 3%;
+}
+#contact div h2 {
+    padding: 0 0 2%;
+}
+
+/* footer here.... */
+#footer {
+    margin: 5% auto 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(13,17,55, 0.98), rgba(13,17,55, 0.98)), url("img/key_board.jpg");
+    background-size: cover;
+    padding: 3% 6%;
+}
+#footer a {
+    text-decoration: none;
+    color: #f39cba;
+    font-size: 2rem;
+    margin-left: 2%;
+}
+#footer a:hover {
+    color: rgb(190, 204, 224);
+}
+#footer p {
+    padding: 2% 0 0% ;
+    color: #999;
+}
+#footer span {
+    font-size: 1.2rem;
+}
+
+
+@media (max-width:990px) {
+    #banner h1 {
+        margin: 10% auto;
+        line-height: 1.4;
+        font-size: 2.5rem;
+    }
+    #banner .banner_a {
+        display: none;
+    }
+    #banner .banner_b {
+        align-items: center;
+    }
+    #banner .banner_b .greeting {
+        font-size: 0.8rem;
+        text-align: center;
+        width: 100%;
+    }
+    #banner .banner_b .greeting h1 {
+        font-size: 2.5rem;
+    }
+    .navbar-brand {
+        display: block;
+    }
+    .content {   
+       padding: 2% 5% 4% ;
+    }
+    #skills .skill {
+       justify-content: left;  
+    }
+    meter {
+       width: 270%;
+    }
+    .project-row {
+       padding: 0 6%;
+    }
+}
