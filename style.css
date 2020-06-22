@@ -224,9 +224,9 @@ meter {
 
 
 @media (max-width:990px) {
-    body, p {
+/*     body, p {
         font-size: 1.6rem;
-    }
+    } */
     #banner h1 {
         margin: 10% auto;
         line-height: 1.4;
