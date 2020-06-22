@@ -230,7 +230,7 @@ meter {
 @media (max-width:990px) {
     
     body, .card-body {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     } 
     #banner h1 {
         margin: 10% auto;
