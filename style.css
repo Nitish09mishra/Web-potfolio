@@ -87,6 +87,7 @@ hr {
     text-shadow: 0 2px 20px #000;
 }
 #banner .banner_b .greeting p {
+    font-size: 1.2rem;
     color: #ccc;
 }
 .navbar {
