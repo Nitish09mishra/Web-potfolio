@@ -238,7 +238,7 @@ meter {
         font-size: 2.5rem;
     }
     #banner .banner_a {
-/*         display: none; */
+        display: none;
     }
     #banner .banner_b {
         align-items: center;
