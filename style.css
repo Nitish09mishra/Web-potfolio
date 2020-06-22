@@ -114,6 +114,10 @@ hr {
     background-color: #0085ff;
     transition: 0.1s ease-in;
 }
+.social_media a:nth-child(4) {
+    background-color: #66cd00;
+    transition: 0.1s ease-in;
+}
 #banner .banner_b .social_media a:hover {
     box-shadow: 0 4px 12px #000;
 }
