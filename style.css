@@ -227,7 +227,7 @@ meter {
 }
 
 
-@media (max-width:990px) 
+@media (max-width:990px) {
     
     body, .card-body {
         font-size: 1.3rem;
