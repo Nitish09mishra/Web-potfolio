@@ -66,11 +66,13 @@ hr {
     width: 78%;
     padding: 0 3% 5%;
 }
-#banner .banner_b .greeting button {
+#banner .banner_b .greeting .button {
+    text-decoration: none;
+    color: #fff;
     border-radius: 30px;
     background-color: rgb(13,17,55);
 }
-#banner .banner_b .greeting button:hover {
+#banner .banner_b .greeting .button:hover {
     background-color: #e72165;
     color: #fff;
 }
