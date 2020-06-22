@@ -78,7 +78,7 @@ hr {
     color: #fff;
 }
 
-#banner .banner_b h1 {
+#banner .banner_b .greeting h1 {
     line-height: 1.5;
     position: relative;
     margin: 0px;
@@ -90,6 +90,34 @@ hr {
     font-size: 1.2rem;
     color: #ccc;
 }
+#banner .banner_b .social_media {
+    /*background-color: #fff;*/
+    width: 100%;
+    padding: 7% 0 5%;
+}
+#banner .banner_b .social_media a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 14px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 8px #000;
+}
+.social_media a:nth-child(1) {
+    background-color: #ff2302;
+    transition: 0.1s ease-in;
+}
+.social_media a:nth-child(2) {
+    background-color: #111;
+    transition: 0.1s ease-in;
+}
+.social_media a:nth-child(3) {
+    background-color: #0085ff;
+    transition: 0.1s ease-in;
+}
+#banner .banner_b .social_media a:hover {
+    box-shadow: 0 4px 12px #000;
+}
+
 .navbar {
     text-align: center;
     padding: 2% 5% 4%;
