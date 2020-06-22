@@ -55,6 +55,7 @@ hr {
     max-height: 80vh;
 }
 #banner .banner_b {
+    padding-bottom: 7%;
     max-height: 80vh;
     background-color: rgb(128,0,128);
     background-image: linear-gradient(rgba(13,17,55, 0.85), rgba(13,17,55, 0.85)), url("img/banner.jpg");
