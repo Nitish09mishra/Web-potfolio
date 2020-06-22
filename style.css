@@ -93,7 +93,7 @@ hr {
 #banner .banner_b .social_media {
     /*background-color: #fff;*/
     width: 100%;
-    padding: 7% 0 5%;
+    padding: 7% 0 3%;
 }
 #banner .banner_b .social_media a {
     text-decoration: none;
@@ -280,7 +280,7 @@ meter {
         font-size: 2.5rem;
     }
     #banner .banner_b .social_media a {
-        font-size: 35px;
+        font-size: 45px;
     }
     .navbar-brand {
         display: block;
