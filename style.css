@@ -235,7 +235,7 @@ meter {
 
 /* footer here.... */
 .page-footer {
-    background-image: linear-gradient(rgba(13,17,55, 0.98), rgba(13,17,55, 0.98)), url("/img/key_board.jpg");
+    background-image: linear-gradient(rgba(13,17,55, 0.98), rgba(13,17,55, 0.98)), url("img/key_board.jpg");
     background-size: cover;
     color: #fff;
     font-weight: 80;
