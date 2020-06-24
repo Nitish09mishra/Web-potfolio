@@ -123,6 +123,7 @@ html{
 }
 
 .navbar {
+    font-size: 1rem;
     text-align: center;
     padding: 2% 5% 4%;
 }
