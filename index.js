@@ -6,7 +6,7 @@ const time= currentDate.getHours()
 $(".year").text(year);
 
 if (time < 12) {
-  $(".grees").text("Good morning!  ")
+  $(".greets").text("Good morning!  ")
   $(".greets").css("color", "green")
 } 
 else if (time >= 12 && time <= 16) {
