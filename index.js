@@ -6,14 +6,14 @@ const time= currentDate.getHours()
 $(".year").text(year);
 
 if (time < 12) {
-  $(".greeting").text("Good morning!  ")
-  $(".greeting").css("color", "green")
+  $(".grees").text("Good morning!  ")
+  $(".greets").css("color", "green")
 } 
 else if (time >= 12 && time <= 16) {
-  $(".greeting").text("Good afternoon!  ")
-  $(".greeting").css("color", "red")
+  $(".greets").text("Good afternoon!  ")
+  $(".greets").css("color", "red")
 } 
 else {
-  $(".greeting").text("Good evening!  ")
-  $(".greeting").css("color", "rgb(13,17,85)")
+  $(".greets").text("Good evening!  ")
+  $(".greets").css("color", "rgb(13,17,85)")
 }
