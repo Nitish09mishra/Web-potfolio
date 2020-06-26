@@ -2,7 +2,7 @@
 const currentDate= new Date()
 const year= currentDate.getFullYear()
 const time= currentDate.getHours()
-console.log(time)
+// console.log(time)
 $(".year").text(year);
 
 if (time < 12) {
