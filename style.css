@@ -179,7 +179,16 @@ meter {
     width: 120%;
 }
 
-/* project's css start... */
+/* CSS fro education section................................................... */
+table {
+    border: 43px solid rgba(0,0,0, 1);
+}
+.table-striped tbody tr:nth-of-type(odd):hover, table tbody tr:hover {
+    color: white;
+    background-color: rgb(24, 23, 23);
+}
+
+/* project's css start......................................................... */
 .project-row {
     justify-content: center;
 }
@@ -220,6 +229,8 @@ meter {
 #projects .card-footer {
     background-color: rgb(13,17,55);
 }
+
+
 /* contact here... */
 #contact {
     background-color: #e52165;
